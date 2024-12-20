@@ -29,6 +29,7 @@ format:
 1. Установить программный пакет swirl
 
 ```{r}
+options(repos = c(CRAN = "https://cloud.r-project.org"))
 install.packages("swirl")
 ```
 2. Запустить задание с помощью swirl::swirl()
